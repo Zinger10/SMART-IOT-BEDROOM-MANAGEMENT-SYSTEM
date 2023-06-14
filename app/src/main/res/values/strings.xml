@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Smart Bedroom</string>
+    <string name="myroom">MyRoom</string>
+    <string name="smoke">Smoke</string>
+    <string name="s1">s1</string>
+    <string name="fan">Fan</string>
+    <string name="f1">f1</string>
+    <string name="led1">LED1</string>
+    <string name="l1">l1</string>
+    <string name="led2">LED2</string>
+    <string name="l2">l2</string>
+    <string name="led3">LED3</string>
+    <string name="l3">l3</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="on1">ON</string>
+    <string name="off1">OFF</string>
+    <string name="on2">ON</string>
+    <string name="off2">OFF</string>
+    <string name="on3">ON</string>
+    <string name="off3">OFF</string>
+
+</resources>

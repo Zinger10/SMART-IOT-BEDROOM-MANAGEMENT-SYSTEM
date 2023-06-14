@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "857344471493",
+    "project_id": "smart-home-54e10",
+    "firebase_url": "https://smart-home-54e10-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "storage_bucket": "smart-home-54e10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857344471493:android:36b26fa2fa42382964dbac",
+        "android_client_info": {
+          "package_name": "com.example.minip_homedummy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857344471493-dfo61p23ihg1eod8bb83n7dbfg8jf4bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkWxBe4laarBRgWdA0gfOBbqGm-uJqd5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857344471493-dfo61p23ihg1eod8bb83n7dbfg8jf4bj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
