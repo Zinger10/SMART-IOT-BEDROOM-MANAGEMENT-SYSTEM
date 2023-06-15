@@ -32,7 +32,7 @@ public class NextPage extends AppCompatActivity {
 
         textView_smokeInt = (TextView) findViewById(R.id.textView_smokeInt);
         textView_tempInt = (TextView) findViewById(R.id.textView_tempInt);
-        textView_HumidityInt = (TextView) findViewById(R.id.textView_HumidityInt);
+        textView_HumidityInt = (TextView) findViewById(R.id.textView2);
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
 

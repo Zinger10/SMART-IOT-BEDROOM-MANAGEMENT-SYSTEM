@@ -28,144 +28,189 @@
             android:id="@+id/textView_smokeInt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="56dp"
-            android:layout_marginEnd="136dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
             android:text="@string/s1"
-            android:textSize="34sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView_room" />
+            android:textSize="50dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView_smoke"
+            app:layout_constraintStart_toEndOf="@+id/imageView_smoke"
+            app:layout_constraintTop_toTopOf="@+id/imageView_smoke"
+            app:layout_constraintVertical_bias="0.352"
+            tools:text="4095" />
 
         <Button
             android:id="@+id/button_onl1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="716dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="28dp"
             android:text="@string/on1"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.578"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView_led"
+            app:layout_constraintTop_toTopOf="@+id/imageView_led" />
 
         <Button
             android:id="@+id/button_offl1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="716dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="48dp"
             android:text="@string/off1"
             android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.943"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toEndOf="@+id/button_onl1"
+            app:layout_constraintTop_toTopOf="@+id/button_onl1" />
 
         <Button
             android:id="@+id/button_OffF1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="600dp"
             android:layout_marginEnd="16dp"
             android:text="@string/off"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.942"
+            app:layout_constraintHorizontal_bias="0.941"
             app:layout_constraintStart_toEndOf="@+id/button_onF1"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="@+id/button_onF1" />
 
         <Button
             android:id="@+id/button_onF1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="600dp"
-            android:layout_marginEnd="136dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="28dp"
             android:text="@string/on"
             android:textSize="24sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.962"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toEndOf="@+id/imageView_fan"
+            app:layout_constraintTop_toTopOf="@+id/imageView_fan" />
 
         <ImageView
             android:id="@+id/imageView_fan"
             android:layout_width="102dp"
             android:layout_height="105dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="28dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.113"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewtemp"
             app:srcCompat="@drawable/fan" />
 
         <ImageView
             android:id="@+id/imageView_smoke"
-            android:layout_width="97dp"
+            android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginTop="144dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.127"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="40dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_room"
             app:srcCompat="@drawable/smoke" />
 
         <ImageView
             android:id="@+id/imageView_led"
-            android:layout_width="92dp"
-            android:layout_height="98dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginTop="32dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.144"
+            app:layout_constraintHorizontal_bias="0.115"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView_fan"
             app:srcCompat="@drawable/led" />
 
         <ImageView
             android:id="@+id/imageViewtemp"
-            android:layout_width="105dp"
-            android:layout_height="118dp"
-            android:layout_marginTop="40dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.114"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView_humidity"
             app:srcCompat="@drawable/temp" />
 
+
         <ImageView
             android:id="@+id/imageView_humidity"
-            android:layout_width="114dp"
-            android:layout_height="119dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="28dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.056"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView_smoke"
             app:srcCompat="@drawable/humidity" />
-
 
         <TextView
             android:id="@+id/textView_tempInt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="484dp"
-            android:text=" °C"
-            android:textSize="24dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.673"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_marginStart="56dp"
+            android:text="100"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewtemp"
+            app:layout_constraintStart_toEndOf="@+id/imageViewtemp"
+            app:layout_constraintTop_toTopOf="@+id/imageViewtemp"
+            app:layout_constraintVertical_bias="0.484" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:text="100"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView_humidity"
+            app:layout_constraintStart_toEndOf="@+id/imageView_humidity"
+            app:layout_constraintTop_toTopOf="@+id/imageView_humidity"
+            app:layout_constraintVertical_bias="0.294" />
 
         <TextView
             android:id="@+id/textView_HumidityInt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="320dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
             android:text="%"
-            android:textSize="24dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.575" />
+
+        <TextView
+            android:id="@+id/textView3_ppm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="ppm"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_smokeInt"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.656"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toEndOf="@+id/textView_smokeInt"
+            app:layout_constraintTop_toTopOf="@+id/textView_smokeInt"
+            app:layout_constraintVertical_bias="0.555" />
+
+        <TextView
+            android:id="@+id/textView4_celcius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:text=" °C"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView_tempInt"
+            app:layout_constraintStart_toEndOf="@+id/textView_tempInt"
+            app:layout_constraintTop_toTopOf="@+id/textView_tempInt"
+            app:layout_constraintVertical_bias="0.545" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
