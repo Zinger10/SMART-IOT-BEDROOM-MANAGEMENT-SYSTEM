@@ -66,7 +66,7 @@ Nowadays, many individuals forget the fan and light controls and are unaware tha
 
 ### Built With
 
-* [![Java][Java.com]][Java-url]
+* ![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white)
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
