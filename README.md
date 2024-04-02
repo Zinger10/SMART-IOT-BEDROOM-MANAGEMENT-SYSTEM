@@ -31,7 +31,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#Problem Statement">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -54,12 +54,11 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- PROBLEM STATEMENT -->
+## About the project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Nowadays, many individuals forget the fan and light controls and are unaware that when they leave the room, there will be a small fire produced by a short circuit from any electrical devices. This activity will end up resulting in increased power costs at home. So,a solution is proposed by developing a smart IoT bedroom management system which user can control the on and off button for fan and lamp, as well as check the humidity and temperature of the room only from a phone application. As a result, we can ensure our house's safety while simultaneously controlling our power expenditure at home.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +66,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+* [![Java][Java.com]][Java-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
