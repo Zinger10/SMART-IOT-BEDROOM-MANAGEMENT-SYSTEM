@@ -90,7 +90,9 @@ The login page is created as the security measure for the Smart Bedroom apps to 
 
 The main page, uses the element of ‘TextView’ for the text on the page and ‘Button’ element that shall bring the user to the next page once clicked by using the command ‘Intent’ on the MainActivity.java.
 <div align="center">
+  
 ![main page](https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/4d4439bf-fc44-49d8-bfa6-a73fdc943223)
+
 </div>
 
 
