@@ -98,14 +98,14 @@ The main page, uses the element of ‘TextView’ for the text on the page and �
 The next page, where all the function is placed, displaying the information such as the existence of the smoke, the humidity and also the temperature of the room that being transmitted by the sensors used along the functional button of ‘ON’ and ‘OFF’ for the fan and the lamp, which for this project, we are using the LED. When one of the buttons clicked, it shall transmit data to the firebase and the ESP32 that controlling the fan and the LED, switching them on or off accordingly to the clicked button by the user.
 
 <!-- ROADMAP -->
-## Roadmap
+## Hardware Setup
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+![hardware 1](https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/35cf0ecb-80e5-44b9-928c-f8d58a47dcd8)
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+![hardware 2](https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/b7903a09-49d5-4837-9777-98071676df80)
+
+The one thing that we should take note is the Analog pins of the two sensors, MQ-2 smoke sensor and DHT-11 Temperature and Humidity sensor should be connected to ADC2 pins of ESP2. This is because ESP32 has two ADCs and one of them ADC2 is actively used by the Wi-Fi. Based on the IDF documentation, since the ADC2 module is also used by the Wi-Fi, only one of them could get the pre-emption when using together, which means the adc2_get_raw() may get blocked until Wi-Fi stops, and vice versa.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
