@@ -80,7 +80,7 @@ Nowadays, many individuals forget the fan and light controls and are unaware tha
 ## Usage
 Example of our Login page
 
-<div style="text-align:center;">
+<div align="center">
     <img src="https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/e355e73e-9b26-491d-8b19-7cce20db8b14" alt="Login page">
 </div>
 
