@@ -102,7 +102,9 @@ The main page, uses the element of ‘TextView’ for the text on the page and �
 
 
 <div align="center">
+  
 ![Values page](https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/9efddb5b-1c06-4e24-867f-12ce674a17d6)
+
 </div>
 
 The next page, where all the function is placed, displaying the information such as the existence of the smoke, the humidity and also the temperature of the room that being transmitted by the sensors used along the functional button of ‘ON’ and ‘OFF’ for the fan and the lamp, which for this project, we are using the LED. When one of the buttons clicked, it shall transmit data to the firebase and the ESP32 that controlling the fan and the LED, switching them on or off accordingly to the clicked button by the user.
