@@ -71,7 +71,7 @@ Nowadays, many individuals forget the fan and light controls and are unaware tha
 * ![Espressif](https://img.shields.io/badge/espressif-E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
 * ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
