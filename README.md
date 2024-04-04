@@ -10,8 +10,7 @@
   </a>
 
 <h3 align="center">SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM</h3>
-<p align="CENTER">(<a href="#https://www.youtube.com/watch?v=ATGB8bH8OT4">Demo Project</a>)</p>
-
+<p align="center">(<a href="https://www.youtube.com/watch?v=ATGB8bH8OT4">Demo Project</a>)</p>
 </div>
 
 
@@ -26,15 +25,15 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
+<!--    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
-    </li>
+    </li> -->
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#roadmap">Hardware Setup</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
