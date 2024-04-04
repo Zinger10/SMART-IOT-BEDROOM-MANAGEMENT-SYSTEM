@@ -1,11 +1,12 @@
 
 <a name="readme-top"></a>
 
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/6761bddc-b8ea-4f66-8017-9383d6a4a58f" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM</h3>
@@ -77,7 +78,7 @@ Nowadays, many individuals forget the fan and light controls and are unaware tha
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## APPLICATION USAGE
 Login page
 
 <div align="center">
@@ -99,6 +100,12 @@ Main page
 
 The main page, uses the element of ‘TextView’ for the text on the page and ‘Button’ element that shall bring the user to the next page once clicked by using the command ‘Intent’ on the MainActivity.java.
 
+
+<div align="center">
+![Values page](https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/9efddb5b-1c06-4e24-867f-12ce674a17d6)
+</div>
+
+The next page, where all the function is placed, displaying the information such as the existence of the smoke, the humidity and also the temperature of the room that being transmitted by the sensors used along the functional button of ‘ON’ and ‘OFF’ for the fan and the lamp, which for this project, we are using the LED. When one of the buttons clicked, it shall transmit data to the firebase and the ESP32 that controlling the fan and the LED, switching them on or off accordingly to the clicked button by the user.
 
 <!-- ROADMAP -->
 ## Roadmap
