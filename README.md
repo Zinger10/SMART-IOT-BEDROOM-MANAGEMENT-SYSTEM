@@ -80,7 +80,9 @@ Nowadays, many individuals forget the fan and light controls and are unaware tha
 ## Usage
 Example of our Login page
 
-![Login page](https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/e355e73e-9b26-491d-8b19-7cce20db8b14)
+<div style="text-align:center;">
+    <img src="https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/e355e73e-9b26-491d-8b19-7cce20db8b14" alt="Login page">
+</div>
 
 The login page is created as the security measure for the Smart Bedroom apps to protect their rightful users and their information. The page, containing basic elements such as ‘TextView’, ‘EditText’, ‘ImageView’ and ‘Button’ is directly linked to the Firebase database that contain the ID and Password of the users.
 
