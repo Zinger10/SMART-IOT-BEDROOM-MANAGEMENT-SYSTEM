@@ -75,46 +75,14 @@ Nowadays, many individuals forget the fan and light controls and are unaware tha
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Example of our Login page
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![Login page](https://github.com/Zinger10/SMART-IOT-BEDROOM-MANAGEMENT-SYSTEM/assets/94850477/e355e73e-9b26-491d-8b19-7cce20db8b14)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+The login page is created as the security measure for the Smart Bedroom apps to protect their rightful users and their information. The page, containing basic elements such as ‘TextView’, ‘EditText’, ‘ImageView’ and ‘Button’ is directly linked to the Firebase database that contain the ID and Password of the users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
